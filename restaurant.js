@@ -11,7 +11,8 @@ const restaurant = new mongoose.Schema({
         required:true
     },
     Items: {
-        Type:[Menu]
+        Type:[String]
+    //    Type:[Menu]
     }
 
 })
